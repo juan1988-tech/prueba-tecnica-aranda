@@ -1,0 +1,14 @@
+.meal-categories{
+  display: flex;
+  flex-wrap: wrap;
+  width: 37.5rem;
+  height: 21.4rem;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 375px){
+  .meal-categories{
+    width: 87%;
+  }
+}

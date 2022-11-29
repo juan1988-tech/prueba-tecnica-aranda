@@ -1,0 +1,59 @@
+:root{
+  --white: #fff;
+  --font-gray: #425966; 
+}
+
+.meal-category-card{
+  width: 11.4rem;
+  height: 9.1rem;
+  border-radius: 1rem;
+  background: transparent linear-gradient(180deg, #E9F1FA 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 9px #8395A766;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+}
+
+.meal-category-card .vegetarian-food{
+  width: 2.8rem;
+  height: 4.4rem;
+}
+
+.meal-category-card .principal-food{
+  width: 3.3rem;
+  height: 3.5rem;
+  margin-top: 1.2rem;
+}
+
+.meal-category-card .pies-food{
+  width: 3.6rem;
+  height: 2.8rem;
+  margin-top: 2.1rem;
+}
+
+.meal-category-card .fast-food{
+  width: 3.4rem;
+  height: 3.2rem;
+  margin-top: 2.6rem;
+}
+
+.meal-category-card .kids-menu{
+  width: 3.6rem;
+  height: 3.1rem;
+  margin-top: 3rem;
+}
+
+.meal-category-card .soup-food{
+  width: 3.3rem;
+  height: 3.6rem;
+  margin-top: 2rem;
+}
+
+.meal-category-card .meal-category-description{
+  font-size: 1.3rem;
+  color: var(--font-gray);
+  font-weight: 500;
+}
+

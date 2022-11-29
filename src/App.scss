@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Monster Clubhouse';
+  src: url('./assets//fonts/Monster\ Clubhouse.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --white: #fff;
+  --font-gray: #425966; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: .625rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.recipe-container{
+  position: relative;
+  top: -5rem;
+}

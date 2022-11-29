@@ -1,0 +1,46 @@
+:root{
+  --red-principal-font: #D84A4A;
+}
+
+@font-face {
+  font-family: 'Monster Clubhouse';
+  src: url('../../assets/fonts/Monster\ Clubhouse.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.new-recipes .new-recipes-title{
+  font-family: 'Monster Clubhouse';
+  font-size: 5.4rem;
+  text-align: center;
+  color: var(--red-principal-font);
+  margin-top: 1.5rem;
+}
+
+.new-recipe-delay{
+  width: 90%;
+  height: 21.8rem;
+  margin: 0 auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+}
+
+.new-recipe-delay .new-recipe-delay-container{
+  display: flex;
+  height: 100%;
+  width: 210%;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+
+@media screen and (max-width: 375px) {
+  .new-recipes .new-recipes-title{
+    margin-top: 10.5rem;
+  } 
+
+  .new-recipe-delay .new-recipe-delay-container{
+    width: 225%;
+  }
+}

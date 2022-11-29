@@ -1,0 +1,46 @@
+:root{
+  --white: #fff;
+  --font-gray: #425966;  
+  --red-font: #D84A4A;
+}
+
+@font-face {
+  font-family: 'Monster Clubhouse';
+  src: url('../../assets/fonts/Monster\ Clubhouse.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.header{
+  background: var(--white);
+  color: var(--font-gray);
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #8395A7;
+  opacity: 1;
+  width: 100vw;
+}
+
+.header .header__title{
+  font-family: 'Monster Clubhouse';
+  font-size: 4rem;
+  margin-left: 7rem;
+}
+
+.header__title span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: var(--red-font);
+}
+
+.header__logo{
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url('../../assets/icons/ic_home.svg');
+  background-size: cover;
+  margin-right: 2.5rem;
+}

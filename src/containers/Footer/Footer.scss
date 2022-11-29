@@ -1,0 +1,45 @@
+:root{
+  --font-gray: #425966;
+}
+
+@font-face {
+  font-family: 'Monster Clubhouse';
+  src: url('../../assets/fonts/Monster\ Clubhouse.ttf');
+}
+
+.footer{
+  height: 7rem;
+  background: linear-gradient(180deg, #C2E3F3 0%, #6AA3C1 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  color: var(--font-gray);
+}
+
+.footer .footer-partners-font{
+  font-family: 'Monster Clubhouse';
+  font-size: 2.8rem;
+  padding-left: 2.4rem;
+}
+
+
+.footer .footer-partners-image{
+  width: 21.8rem;
+  height: 9.5rem;
+  position: absolute;
+  right: 0;
+  top: -27px;
+}
+
+@media screen and (max-width: 375px){
+  .footer .footer-partners-image{
+    width: 17.8rem;
+    height: 8.5rem;
+    top: -12px;
+  }
+
+  .footer .footer-partners-font{
+    font-size: 1.8rem;
+  }
+}
