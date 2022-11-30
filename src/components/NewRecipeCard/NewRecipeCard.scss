@@ -79,11 +79,17 @@
 
 @media screen and (min-width: 767px){
   .new-recipe-card{
+    position: relative;
     width: 26.6rem;
     height: 26.9rem;
     margin-left: 0px;
   }  
-  
+/*   .new-recipe-card:hover{
+    top: 32px;
+    height: 33.3rem;
+    transform-origin: top;
+  } */
+
   .new-recipe-card .recipe-image{
     width: 16.3rem;
     height: 16.3rem;
@@ -108,5 +114,13 @@
   .new-recipe-qualification .new-recipe-hearth{
     width: 1.8rem;
     height: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1279px){
+  .new-recipe-card-enlarged{
+    top: 4.1rem;
+    height: 35.1rem;
+    transform-origin: top;
   }
 }

@@ -55,7 +55,7 @@
 
   .new-recipe-delay{
     width: 70.7rem;
-    height: 36.1rem;
+    height: 44.1rem;
     overflow-x: scroll;
   }
 
@@ -81,4 +81,46 @@
   .new-recipe-delay .new-recipe-delay-container{
     width: 100%;
   }
+
+  /*informacion de receta*/
+  .information-recipe{
+    padding-top: 9.5rem;
+    text-align: center;
+    animation-name: changeopacity;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes changeopacity{
+    0%{
+      opacity: .2;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  .information-recipe img + p{
+    color: var(--red-principal-font);
+    font-family: 'Monster Clubhouse';
+    font-size: 2.1rem;
+  }
+
+  .information-recipe img + p + p{
+    font-size: 1.6rem;
+  }
+  .plate-image{
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  .clock-image{
+    width: 2.3rem;
+    height: 1.7rem;
+  }
+
+  .time-preparation, .recipe-difficult{
+    margin-top: 1.2rem;
+  }
+
 }
