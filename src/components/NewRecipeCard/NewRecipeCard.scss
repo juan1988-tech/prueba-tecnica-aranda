@@ -71,6 +71,12 @@
   height: 1.2rem;
 }
 
+@media screen and (max-width: 375px){
+  .new-recipe-qualification{
+    margin-top: 4rem;
+  }
+}
+
 @media screen and (min-width: 767px){
   .new-recipe-card{
     width: 26.6rem;
