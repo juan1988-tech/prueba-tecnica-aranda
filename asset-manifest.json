@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/prueba-tecnica-aranda/static/css/main.f478fda5.css",
+    "main.js": "/prueba-tecnica-aranda/static/js/main.8370156a.js",
+    "static/media/bcq.jpg": "/prueba-tecnica-aranda/static/media/bcq.c34e44b3e59aa9816164.jpg",
+    "static/media/Grupo-7610.png": "/prueba-tecnica-aranda/static/media/Grupo-7610.b2bbff17ca1781a1d459.png",
+    "static/media/Monster Clubhouse.ttf": "/prueba-tecnica-aranda/static/media/Monster Clubhouse.526c6ff9781ae1c36baf.ttf",
+    "static/media/Ojingeo-muchim.png": "/prueba-tecnica-aranda/static/media/Ojingeo-muchim.294fdf381509ada8d691.png",
+    "static/media/ic_cake.svg": "/prueba-tecnica-aranda/static/media/ic_cake.c70db41a49993489372dc6abe0656417.svg",
+    "static/media/ic_vegetarian.svg": "/prueba-tecnica-aranda/static/media/ic_vegetarian.8492fb5b70affc98a0a5c577ed1deea9.svg",
+    "static/media/ic_kids.svg": "/prueba-tecnica-aranda/static/media/ic_kids.a776f77f8b46bf84dca15a3bcef11d2a.svg",
+    "static/media/ic_soup.svg": "/prueba-tecnica-aranda/static/media/ic_soup.e654cc6d794245907ac9adca3367e174.svg",
+    "static/media/ic_main.svg": "/prueba-tecnica-aranda/static/media/ic_main.4fcfa5fe9df45b4fb143001c52f7e332.svg",
+    "static/media/ic_home.svg": "/prueba-tecnica-aranda/static/media/ic_home.fc2ca198735d6f9bb942.svg",
+    "static/media/ic_fast-food.svg": "/prueba-tecnica-aranda/static/media/ic_fast-food.c7d435ef1f0424bceceafd15f4e051bf.svg",
+    "static/media/ic_star.svg": "/prueba-tecnica-aranda/static/media/ic_star.b7fc05fe39bff5a8a9ef061efab4ef21.svg",
+    "static/media/ic-favorite.svg": "/prueba-tecnica-aranda/static/media/ic-favorite.ca2e91db7f9cf246b7447c9eaa78d43c.svg",
+    "index.html": "/prueba-tecnica-aranda/index.html",
+    "main.f478fda5.css.map": "/prueba-tecnica-aranda/static/css/main.f478fda5.css.map",
+    "main.8370156a.js.map": "/prueba-tecnica-aranda/static/js/main.8370156a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f478fda5.css",
+    "static/js/main.8370156a.js"
+  ]
+}
