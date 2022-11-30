@@ -43,3 +43,21 @@
     font-size: 1.8rem;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .footer{
+    height: 11.5rem;
+  }
+
+  .footer .footer-partners-font{
+    font-size: 4.7rem;
+    padding-left: 4.4rem;
+  }
+
+  .footer .footer-partners-image{   
+    width: 378px;
+    height: 167px;
+    top: -5.1rem;
+    right: 3.4rem;
+  }
+}

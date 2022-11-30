@@ -44,3 +44,41 @@
     width: 225%;
   }
 }
+
+@media screen and (min-width: 767px){
+  .new-recipes .new-recipes-title{
+    font-size: 5.4rem;
+    text-align: left;
+    text-indent: 5.2rem;
+    margin-top: .4rem;
+  }
+
+  .new-recipe-delay{
+    width: 70.7rem;
+    height: 36.1rem;
+    overflow-x: scroll;
+  }
+
+  .new-recipe-delay .new-recipe-delay-container{
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    width: 168%;
+  }
+}
+
+@media screen and (min-width: 1279px){
+  .new-recipes .new-recipes-title{
+    margin-top: 2.8rem;
+    text-indent: 6.3rem;
+    font-size: 7.3rem;
+  }
+
+  .new-recipe-delay{
+    width: 115.1rem;
+    overflow-x: hidden;
+  }
+
+  .new-recipe-delay .new-recipe-delay-container{
+    width: 100%;
+  }
+}

@@ -57,3 +57,43 @@
   font-weight: 500;
 }
 
+
+@media screen and (min-width: 767px){
+  .meal-category-card{
+    width: 10.6rem;
+    height: 8.5rem;
+  }
+
+  .meal-category-card .vegetarian-food{
+    width: 2.7rem;
+    height: 4.1rem;
+  }
+
+  .meal-category-card .principal-food{
+    width: 3rem;
+    height: 3.2rem;
+  }
+
+  .meal-category-card .pies-food{
+    width: 3.4rem;
+    height: 2.6rem;
+    margin-top: 1.9rem;
+  }
+
+  .meal-category-card .fast-food{
+    width: 3.2rem;
+    height: 3rem;
+    margin-top: 1.8rem;
+  }
+
+  .meal-category-card .kids-menu{
+    width: 3.4rem;
+    height: 2.9rem;
+    margin-top: 2.2rem;
+  }
+
+  .meal-category-card .soup-food{
+    width: 3rem;
+    height: 3.4rem;
+  }
+}

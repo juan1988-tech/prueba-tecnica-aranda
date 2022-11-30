@@ -21,7 +21,6 @@
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #8395A7;
   opacity: 1;
-  width: 100vw;
 }
 
 .header .header__title{
@@ -43,4 +42,10 @@
   background-image: url('../../assets/icons/ic_home.svg');
   background-size: cover;
   margin-right: 2.5rem;
+}
+
+@media screen and (min-width: 1279px){
+  .header__logo{
+    display: none;
+  }
 }
