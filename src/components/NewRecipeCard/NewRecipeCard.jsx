@@ -29,4 +29,4 @@ const NewRecipeCard = ({firstNameRecipe,secondNameRecipe,cualification,recipeIma
   )
 }
 
-export { NewRecipeCard,FirstRecipe,InformationRecipe };
+export { NewRecipeCard };

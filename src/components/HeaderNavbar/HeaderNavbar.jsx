@@ -6,25 +6,25 @@ const HeaderNabvar = () =>{
     <nav className="header__navbar">
       <ul className="header__list-meal">
         <li>
-         <a className="header__list-meal-link home-link">Home</a>
+         <a href="/" className="header__list-meal-link home-link">Home</a>
         </li>
         <li>
-          <a className="header__list-meal-link">Vegetarianos</a>
+          <a href="/" className="header__list-meal-link">Vegetarianos</a>
         </li>
         <li>
-          <a className="header__list-meal-link">Platos principales</a>
+          <a href="/" className="header__list-meal-link">Platos principales</a>
         </li>
         <li>
-          <a className="header__list-meal-link">Tortas</a>
+          <a href="/" className="header__list-meal-link">Tortas</a>
         </li>
         <li>
-          <a className="header__list-meal-link">Comida Rapida</a>
+          <a href="/" className="header__list-meal-link">Comida Rapida</a>
         </li>
         <li>
-          <a className="header__list-meal-link">Menú Niños</a>
+          <a href="/" className="header__list-meal-link">Menú Niños</a>
         </li>
         <li>
-          <a className="header__list-meal-link">Sopas</a>
+          <a href="/" className="header__list-meal-link">Sopas</a>
         </li>
     </ul>
   </nav>
