@@ -1,12 +1,11 @@
 import React,{ useContext } from 'react';
 import AppContext from '../../context/AppContext';
 import './NewRecipeCard.scss';
-//import recipeImage from '../../assets/Ojingeo-muchim.png';
 import useGetRecipe from '../../Hooks/useGetRecipe';
 import FirstRecipe from './FirstRecipe';
 import InformationRecipe from './InformationRecipe';
 
-const NewRecipeCard = ({firstNameRecipe,secondNameRecipe,cualification,recipeImage}) => {
+const NewRecipeCard = ({firstNameRecipe,secondNameRecipe,cualification,recipeImage,numberPortions,timeCook}) => {
   const recipes = useGetRecipe()
   const { sizeCard } = recipes;
   const { changePerformanceCard } = recipes;
@@ -22,7 +21,10 @@ const NewRecipeCard = ({firstNameRecipe,secondNameRecipe,cualification,recipeIma
         secondNameRecipe={secondNameRecipe}
         cualification={cualification}
       />:
-      <InformationRecipe/>} 
+      <InformationRecipe
+        numberPortions={numberPortions}
+        timeCook={timeCook}
+      />} 
     </article>
   )
 }
