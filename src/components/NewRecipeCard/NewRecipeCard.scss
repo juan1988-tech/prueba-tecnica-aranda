@@ -29,8 +29,27 @@
   height: 11rem;
   position: absolute;
   top: -2.7rem;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.ojinjeo-muchin{
+  background-image: url('../../assets/Ojingeo-muchim.png');
+}
+
+.cola-chicken{
+  background-image: url('../../assets/Ojingeo-muchim-1.png');
+}
+
+.roasted-carrot{
+  background-image: url('../../assets/Ojingeo-muchim-5.png');
+}
+
+.new-recipe-card .sweet-cherries{
+  background-image: url('../../assets/cherry.png');
+  background-size: 78%;
+}
 .new-recipe-card .new-recipe-name{
   margin-top: 7.6rem;
   color: var(--red-font);
@@ -43,10 +62,11 @@
 
 .new-recipe-qualification{
   display: flex;
-  width: 85%;
+  width: 90%;
   align-items: center;
   align-content: center;
   justify-content: space-between;
+  margin: 0 auto;
   margin-top: 6.3rem;
 }
 
@@ -71,6 +91,11 @@
   height: 1.2rem;
 }
 
+
+.first-recipe{
+  width: 100%;
+  text-align: center;
+}
 @media screen and (max-width: 375px){
   .new-recipe-qualification{
     margin-top: 4rem;

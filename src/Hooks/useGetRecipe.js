@@ -16,7 +16,6 @@ function useGetRecipe(){
     }
   }
 
-  
   return {
     sizeCard,
     changePerformanceCard,
