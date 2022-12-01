@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prueba-tecnica-aranda/static/css/main.6460164a.css",
-    "main.js": "/prueba-tecnica-aranda/static/js/main.15fbf956.js",
+    "main.css": "/prueba-tecnica-aranda/static/css/main.66b753cc.css",
+    "main.js": "/prueba-tecnica-aranda/static/js/main.6ccd0bb5.js",
     "static/media/bcq.jpg": "/prueba-tecnica-aranda/static/media/bcq.c34e44b3e59aa9816164.jpg",
     "static/media/Grupo-7610.png": "/prueba-tecnica-aranda/static/media/Grupo-7610.b2bbff17ca1781a1d459.png",
     "static/media/cherry.png": "/prueba-tecnica-aranda/static/media/cherry.601aa43496427d7938d0.png",
@@ -22,11 +22,11 @@
     "static/media/ic_star.svg": "/prueba-tecnica-aranda/static/media/ic_star.b7fc05fe39bff5a8a9ef061efab4ef21.svg",
     "static/media/ic-favorite.svg": "/prueba-tecnica-aranda/static/media/ic-favorite.ca2e91db7f9cf246b7447c9eaa78d43c.svg",
     "index.html": "/prueba-tecnica-aranda/index.html",
-    "main.6460164a.css.map": "/prueba-tecnica-aranda/static/css/main.6460164a.css.map",
-    "main.15fbf956.js.map": "/prueba-tecnica-aranda/static/js/main.15fbf956.js.map"
+    "main.66b753cc.css.map": "/prueba-tecnica-aranda/static/css/main.66b753cc.css.map",
+    "main.6ccd0bb5.js.map": "/prueba-tecnica-aranda/static/js/main.6ccd0bb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6460164a.css",
-    "static/js/main.15fbf956.js"
+    "static/css/main.66b753cc.css",
+    "static/js/main.6ccd0bb5.js"
   ]
 }
