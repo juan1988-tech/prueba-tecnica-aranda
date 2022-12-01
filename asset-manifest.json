@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/prueba-tecnica-aranda/static/css/main.5230c580.css",
-    "main.js": "/prueba-tecnica-aranda/static/js/main.e35373cd.js",
+    "main.css": "/prueba-tecnica-aranda/static/css/main.6460164a.css",
+    "main.js": "/prueba-tecnica-aranda/static/js/main.41317353.js",
     "static/media/bcq.jpg": "/prueba-tecnica-aranda/static/media/bcq.c34e44b3e59aa9816164.jpg",
     "static/media/Grupo-7610.png": "/prueba-tecnica-aranda/static/media/Grupo-7610.b2bbff17ca1781a1d459.png",
+    "static/media/cherry.png": "/prueba-tecnica-aranda/static/media/cherry.601aa43496427d7938d0.png",
+    "static/media/Ojingeo-muchim-5.png": "/prueba-tecnica-aranda/static/media/Ojingeo-muchim-5.3ae80bfbd72d61b72b2d.png",
     "static/media/Monster Clubhouse.ttf": "/prueba-tecnica-aranda/static/media/Monster Clubhouse.526c6ff9781ae1c36baf.ttf",
     "static/media/Ojingeo-muchim.png": "/prueba-tecnica-aranda/static/media/Ojingeo-muchim.294fdf381509ada8d691.png",
+    "static/media/Ojingeo-muchim-1.png": "/prueba-tecnica-aranda/static/media/Ojingeo-muchim-1.9ffcaf222e9b920d35bc.png",
     "static/media/ic_time.svg": "/prueba-tecnica-aranda/static/media/ic_time.7f15072ffbaadf7335537613b89b5340.svg",
     "static/media/ic_cake.svg": "/prueba-tecnica-aranda/static/media/ic_cake.c70db41a49993489372dc6abe0656417.svg",
     "static/media/ic_vegetarian.svg": "/prueba-tecnica-aranda/static/media/ic_vegetarian.8492fb5b70affc98a0a5c577ed1deea9.svg",
@@ -19,11 +22,11 @@
     "static/media/ic_star.svg": "/prueba-tecnica-aranda/static/media/ic_star.b7fc05fe39bff5a8a9ef061efab4ef21.svg",
     "static/media/ic-favorite.svg": "/prueba-tecnica-aranda/static/media/ic-favorite.ca2e91db7f9cf246b7447c9eaa78d43c.svg",
     "index.html": "/prueba-tecnica-aranda/index.html",
-    "main.5230c580.css.map": "/prueba-tecnica-aranda/static/css/main.5230c580.css.map",
-    "main.e35373cd.js.map": "/prueba-tecnica-aranda/static/js/main.e35373cd.js.map"
+    "main.6460164a.css.map": "/prueba-tecnica-aranda/static/css/main.6460164a.css.map",
+    "main.41317353.js.map": "/prueba-tecnica-aranda/static/js/main.41317353.js.map"
   },
   "entrypoints": [
-    "static/css/main.5230c580.css",
-    "static/js/main.e35373cd.js"
+    "static/css/main.6460164a.css",
+    "static/js/main.41317353.js"
   ]
 }
