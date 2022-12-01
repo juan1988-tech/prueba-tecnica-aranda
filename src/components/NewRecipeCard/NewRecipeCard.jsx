@@ -6,6 +6,7 @@ import hearth from '../../assets/icons/ic-favorite.svg';
 import plate from '../../assets/icons/ic_portion.svg';
 import clock from '../../assets/icons/ic_time.svg';
 import chefIcon from '../../assets/icons/ic_chef.svg';
+import useGetRecipe from '../../Hooks/useGetRecipe';
 
 const FirstRecipe = () =>{
   return(
@@ -46,25 +47,14 @@ const InformationRecipe = () =>{
 }
 
 const NewRecipeCard = () => {
-  const [sizeCard, setSizeCard] = React.useState('new-recipe-card');
-  const screenWidth = window.screen.width;
-  console.log(screenWidth);
-
-  const changePerformanceCard = () =>{
-    if(screenWidth > 1278){
-      setSizeCard('new-recipe-card new-recipe-card-enlarged')
-    }
-  }
-
-  const changeDefaultCard = ()=>{
-    if(screenWidth > 1278){
-      setSizeCard('new-recipe-card');
-    }
-  }
+  const recipe = useGetRecipe();
+  const { sizeCard } =  recipe;
+  const { changePerformanceCard } =  recipe;
+  const { changeDefaultCard } = recipe;
 
   return(
     <article className={sizeCard}  onMouseOver={changePerformanceCard} onMouseLeave={changeDefaultCard}>
-       <img src={recipeImage} className="recipe-image"/>
+      <img src={recipeImage} className="recipe-image"/>
       {(sizeCard==="new-recipe-card")?<FirstRecipe/>:<InformationRecipe/>} 
     </article>
   )
